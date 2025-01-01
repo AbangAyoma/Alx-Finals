@@ -1,14 +1,14 @@
-# WriteHub  
+# TechSphere  
 
 ## Description  
-**WriteHub** is a dynamic blog platform built with **Node.js** for the backend. It enables users to create, edit, and manage blog posts efficiently. The platform is designed to be responsive, making it accessible on both desktop and mobile devices.  
+**TechSphere** is a dynamic tech blog platform built with **Node.js** for the backend. It provides a space for users to write, share, and discuss tech-related topics, similar to Medium. Users can post articles, read others' posts, and interact with the content. The platform is designed to be responsive, making it accessible across various devices.  
 
 ## Features  
-- User authentication with secure session management.  
+- User authentication for secure access and session management.  
 - CRUD operations for blog posts (Create, Read, Update, Delete).  
-- Blog listing with pagination.  
-- Search functionality for blog posts.  
-- Mobile-friendly, responsive UI.  
+- Tech blog listing with pagination and search functionality.  
+- Responsive design for mobile and desktop viewing.  
+- User-friendly interface with options to like and comment on posts.  
 
 ## Tech Stack  
 - **Front-end:** HTML, CSS, JavaScript  
@@ -49,16 +49,16 @@
 |-----------------------|--------|------------------------------|  
 | `/api/auth/register`  | POST   | Register a new user          |  
 | `/api/auth/login`     | POST   | User login                   |  
-| `/api/blogs`          | GET    | Fetch all blogs              |  
-| `/api/blogs/:id`      | GET    | Fetch a single blog post     |  
-| `/api/blogs`          | POST   | Create a new blog post       |  
-| `/api/blogs/:id`      | PUT    | Update a blog post           |  
-| `/api/blogs/:id`      | DELETE | Delete a blog post           |  
+| `/api/posts`          | GET    | Fetch all tech posts         |  
+| `/api/posts/:id`      | GET    | Fetch a single tech post     |  
+| `/api/posts`          | POST   | Create a new tech post       |  
+| `/api/posts/:id`      | PUT    | Update a tech post           |  
+| `/api/posts/:id`      | DELETE | Delete a tech post           |  
 
 ## Future Improvements  
-- Add user profiles and avatars.  
-- Implement comments and likes for blogs.  
-- Add tags or categories for better content organization.  
+- Implement post categories and tags for better content organization.  
+- Add user profiles with personal settings and avatars.  
+- Implement comment sections and like/dislike functionality for posts.  
 
 ## Acknowledgments  
-Special thanks to the **ALX Program** for this amazing opportunity to grow and build practical skills.  
+Special thanks to the **ALX Program** for this amazing opportunity to grow and build practical skills.
