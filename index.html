@@ -15,8 +15,8 @@
         <fieldset>
             <legend>please login</legend>
             <input type="text" name="uName" id="uName" placeholder="please enter your username" required> <br>
-            <input type="password" name="password" id="password" placeholder="please enter your password" required><br>
-            <input type="button" value="login">
+            <input type="password" name="password" id="password" placeholder="please enter your password" pattern=".{8,}" title="your password must not be less than 8 character" required><br>
+            <button type="submit" value="login">login</button>
         </fieldset>
     </form>
 </body>
