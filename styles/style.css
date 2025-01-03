@@ -1,0 +1,29 @@
+body{
+    background-image: url('../assets/images/grglobe.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-clip: content-box;
+    height: 100vh;
+    color: aliceblue;
+    /* background-color: black; */
+}
+form{
+    margin-inline: auto;
+    margin-block: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form  input, form button{
+    outline: none;
+    width: 80vw;
+    height: 50px;
+    margin: 30px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+}
+form button[type="submit"]:hover{
+    background-color: aqua;
+    font-size: 2rem;
+    transition: ease-in 0.5s;
+}
