@@ -6,6 +6,7 @@ class Post(models.Model):
     content = models.TextField()
     author = models.ForeignKey(User, on_delete=models.CASCADE)
     create_at = models.DateTimeField(auto_now_add=True)
+    cover_image= models.ImageField(blank=True)
     
     def __str__(self):
         return self.title
