@@ -1,5 +1,5 @@
 {
-  "name": "onekindthing",
+  "name": "techsphere",
   "version": "1.0.0",
   "description": "## Description   **TechSphere** is a dynamic tech blog platform built with **Node.js** for the backend. It provides a space for users to write, share, and discuss tech-related topics, similar to Medium. Users can post articles, read others' posts, and interact with the content. The platform is designed to be responsive, making it accessible across various devices.",
   "main": "index.js",
