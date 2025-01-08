@@ -36,7 +36,7 @@ LOGIN_URL = '/accounts/login/'
 # Application definition
 
 INSTALLED_APPS = [
-    'Accounts',
+    'accounts',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
