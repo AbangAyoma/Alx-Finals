@@ -1,4 +1,135 @@
-<h1>{{ post.title }}</h1>
-<p>By {{ post.author }} on {{ post.create_at }}</p>
-<div>{{ post.content }}</div>
-<a href="/">Back to Blog</a>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TECHSPHERE</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>{{ post.title }}</h1>
+    <img src="{{ post.cover_image.url}}" alt="">
+    <p>By {{ post.author }} on {{ post.create_at }}</p>
+    <div>{{ post.content }}</div>
+    <a href="/">Back to Blog</a>
+    <header class="header">
+        <div class="logo"><strong>
+                <p>tehcnocrats</p>
+            </strong>
+        </div>
+        <nav class="nav" id="nav">
+            <ul class="menu">
+                <li><a href="#products">Products</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#about">About us</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button>Log in</button>
+                <button class="signup">Sign up</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="featured">
+            <div class="hero-img">
+                <img src="https://media.istockphoto.com/id/1587604256/photo/portrait-lawyer-and-black-woman-with-tablet-smile-and-happy-in-office-workplace-african.jpg?s=612x612&w=0&k=20&c=n9yulMNKdIYIQC-Qns8agFj6GBDbiKyPRruaUTh4MKs="
+                    alt="hero-image" class="h-img">
+            </div>
+            <div class="featured-content">
+                <p>featured</p>
+                <h1>
+                    Breaking Into Product Design: Advice from Untitled Founder, Frankie
+                </h1>
+                <p>
+                    Let's get one thing out of the way: you don't need a fancy
+                    Bachelor's Degree...
+                </p>
+            </div>
+        </section>
+        <section class="blog-posts">
+            <h2>Recent blog posts</h2>
+            <div class="posts">
+                <!-- Post cards -->
+                <div class="post">
+                    <img src="https://media.istockphoto.com/id/1399565382/photo/young-happy-mixed-race-businessman-standing-with-his-arms-crossed-working-alone-in-an-office.jpg?s=612x612&w=0&k=20&c=buXwOYjA_tjt2O3-kcSKqkTp2lxKWJJ_Ttx2PhYe3VM="
+                        alt="Post image" />
+                    <h4>Migrating to Linear 101</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo similique voluptate alias harum,
+                        molestiae quod ipsa rem. Illo, similique vitae.</p>
+                    <p>Jonathan Wills • 19 Jan 2022</p>
+                    <button class="btnn btn-posts">read more</button>
+                </div>
+                <!-- single post -->
+                <div class="post">
+                    <img src="https://media.istockphoto.com/id/1587604256/photo/portrait-lawyer-and-black-woman-with-tablet-smile-and-happy-in-office-workplace-african.jpg?s=612x612&w=0&k=20&c=n9yulMNKdIYIQC-Qns8agFj6GBDbiKyPRruaUTh4MKs="
+                        alt="Post image" />
+                    <h4>Building your API Stack</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo similique voluptate alias harum,
+                        molestiae quod ipsa rem. Illo, similique vitae.</p>
+                    <p>Lana Steiner • 18 Jan 2022</p>
+                    <button class="btnn btn-posts">read more</button>
+                </div>
+                <!-- end of single post -->
+                <!-- single post -->
+                <div class="post">
+                    <img src="https://media.istockphoto.com/id/1587604256/photo/portrait-lawyer-and-black-woman-with-tablet-smile-and-happy-in-office-workplace-african.jpg?s=612x612&w=0&k=20&c=n9yulMNKdIYIQC-Qns8agFj6GBDbiKyPRruaUTh4MKs="
+                        alt="Post image" />
+                    <h4>Building your API Stack</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo similique voluptate alias harum,
+                        molestiae quod ipsa rem. Illo, similique vitae.</p>
+                    <p>Lana Steiner • 18 Jan 2022</p>
+                    <button class="btnn btn-posts">read more</button>
+                </div>
+                <!-- end of single post -->
+                <!-- single post -->
+                <div class="post">
+                    <img src="https://media.istockphoto.com/id/1587604256/photo/portrait-lawyer-and-black-woman-with-tablet-smile-and-happy-in-office-workplace-african.jpg?s=612x612&w=0&k=20&c=n9yulMNKdIYIQC-Qns8agFj6GBDbiKyPRruaUTh4MKs="
+                        alt="Post image" />
+                    <h4>Building your API Stack</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo similique voluptate alias harum,
+                        molestiae quod ipsa rem. Illo, similique vitae.</p>
+                    <p>Lana Steiner • 18 Jan 2022</p>
+                    <button class="btnn btn-posts">read more</button>
+                </div>
+                <!-- single post -->
+                <div class="post">
+                    <img src="https://media.istockphoto.com/id/1587604256/photo/portrait-lawyer-and-black-woman-with-tablet-smile-and-happy-in-office-workplace-african.jpg?s=612x612&w=0&k=20&c=n9yulMNKdIYIQC-Qns8agFj6GBDbiKyPRruaUTh4MKs="
+                        alt="Post image" />
+                    <h4>Building your API Stack</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo similique voluptate alias harum,
+                        molestiae quod ipsa rem. Illo, similique vitae.</p>
+                    <p>Lana Steiner • 18 Jan 2022</p>
+                    <button class="btnn btn-posts">read more</button>
+                </div>
+
+                <!-- single post -->
+                <div class="post">
+                    <img src="https://media.istockphoto.com/id/1587604256/photo/portrait-lawyer-and-black-woman-with-tablet-smile-and-happy-in-office-workplace-african.jpg?s=612x612&w=0&k=20&c=n9yulMNKdIYIQC-Qns8agFj6GBDbiKyPRruaUTh4MKs="
+                        alt="Post image" />
+                    <h4>Building your API Stack</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo similique voluptate alias harum,
+                        molestiae quod ipsa rem. Illo, similique vitae.</p>
+                    <p>Lana Steiner • 18 Jan 2022</p>
+                    <button class="btnn btn-posts">read more</button>
+                </div>
+                <!-- end of single post -->
+               
+                <!-- Add more posts here -->
+            </div>
+
+        </section>
+        <div class="mine">
+            <button class="btnn btn-p"> load more</button>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Join over 4,000+ startups already growing with Untitled.</p>
+        <button class="btnn">Chat to us</button>
+        <button class="btnn">Get started</button> 
+    </footer>
+</body>
+
+</html>
